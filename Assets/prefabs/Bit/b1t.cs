@@ -4,28 +4,29 @@ using UnityEngine;
 using UnityEngine.UI;
 public class b1t : MonoBehaviour
 {
-    SpriteRenderer spriteRenderer;
+    SpriteRenderer spriteRender;
+    bool state = false;           
 
     void Start()
     {
        
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRender = GetComponent<SpriteRenderer>();
     }
 
-    public bool state = false; 
+   
 
     void Update()
     {
         if (state)
         {
           
-            spriteRenderer.color = Color.green;
+            spriteRender.color = Color.green;
             
         }
         else
         {
            
-            spriteRenderer.color = Color.red;
+            spriteRender.color = Color.red;
            
         }
     }
