@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class b1t : MonoBehaviour
+public class Bit : MonoBehaviour
 {
     SpriteRenderer spriteRender;
-    bool state = false;           
+    public bool state = false;           
 
     void Start()
     {
