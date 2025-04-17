@@ -565,7 +565,7 @@ MonoBehaviour:
   - {fileID: 1441142656}
   - {fileID: 1477943539}
   - {fileID: 1753504666}
-  values: 
+  values: 4d0000007b000000ff000000d50000005a0000000400000043000000bd000000
 --- !u!4 &1690245187
 Transform:
   m_ObjectHideFlags: 0
